@@ -1,19 +1,14 @@
 <template>
-  <div>
-    <div class="logo">
-      <router-link to=""> Twitta </router-link>
-    </div>
+  <div class="land-page">
     <header>
       <h1>
         Decentralized <br />
         Tweeting Platform
       </h1>
+      <p>Twitter clone build on ethereum</p>
     </header>
 
     <div class="meta-connection">
-      <div>
-        <p>Twitter clone build on ethereum</p>
-      </div>
       <button>Create account</button>
       <p>
         Connect your account on metamask and confirm the transaction. <br />
@@ -26,31 +21,38 @@
 
 <script>
 export default {
-  name: "LandingPage",
+  components: {},
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.logo {
-  position: absolute;
-  right: 50px;
-  top: 10px;
-  font-size: 1.5rem;
-}
+
 header,
 .meta-connection {
   position: relative;
   left: 70px;
 }
 header {
-  top: 75px;
+  top: 120px;
 }
 .meta-connection {
-  top: 125px;
+  top: 150px;
 }
 a {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
+}
+button {
+  width: 11rem;
+  background: white;
+  padding: 5px 8px;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+}
+.meta-connection p {
+  margin-top: 1.2rem;
 }
 </style>
