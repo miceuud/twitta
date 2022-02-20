@@ -4,6 +4,9 @@
       <input type="text" name="" id="">
       <button>Tweet</button>
     </div>
+    <div class="tweet-container">
+      card
+    </div>
   </div>
 </template>
 
