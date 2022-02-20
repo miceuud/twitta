@@ -1,16 +1,9 @@
-# Basic Sample Hardhat Project
+# Tweeta
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
-# twitta
+This project demonstrates a basic usecase for a decentralise tweeting platform.
+Please note that transaction that causes state change on the blockchain attracts a fee.
+
+This is a demo and might not be applicable in real-life.
+
+```
